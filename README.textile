@@ -1,11 +1,11 @@
 1) Clone this repository into a .powershell directory on your HOME directory
 
-  git clone git@github.com:pedroreys/powershell.git $HOME/.powershell
+bc.  git clone git@github.com:pedroreys/powershell.git $HOME/.powershell
 
 2) Dot source the bash.ps1 file in your PowerShell profile.
 
   In your Microsoft.PowerShell_profile.ps1 file add:
 
-  . $HOME\.powershell\bash.ps1
+bc.  . $HOME\.powershell\bash.ps1
 
 3) Profit.
