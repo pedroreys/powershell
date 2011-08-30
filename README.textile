@@ -1,6 +1,6 @@
 1. Clone this repository into a .powershell directory on your HOME directory
 
-bc.  git clone git@github.com:pedroreys/powershell.git $HOME/.powershell
+bc.  git clone git@github.com:pedroreys/powershell.git $HOME/.powershell --recursive
 
 2. Dot source the bash.ps1 file in your Microsoft.PowerShell_profile.ps1
 
