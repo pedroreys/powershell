@@ -2,8 +2,13 @@
 
 bc.  git clone git@github.com:pedroreys/powershell.git $HOME/.powershell --recursive
 
-2. Dot source the bash.ps1 file in your Microsoft.PowerShell_profile.ps1
-
+2. If you have a powershell profile file already: 
+  
+  Dot source the bash.ps1 file in your profile file
 bc.  . $HOME\.powershell\bash.ps1
+
+if don't have a powershell profile yet, create a symbolic link in one of the "powershell profile file locations":http://msdn.microsoft.com/en-us/library/windows/desktop/bb613488(v=vs.85).aspx and point it to the profile file in the .powershell directory
+
+bc.  mklink Microsoft.Powershell_profile %UserProfile%\.powershell\Microsoft.Powershell_profile.ps1
 
 3. Profit.
