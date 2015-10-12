@@ -1,3 +1,0 @@
-[submodule "posh-git"]
-        path = posh-git
-        url = git://github.com/pedroreys/posh-git.git
